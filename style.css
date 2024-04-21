@@ -3,6 +3,8 @@ input{width:80vw; height:5vw;
      margin:10px 10vw 20px 10vh;
      font-size:2vw;}
 input::placeholder{text-align:center; opacity:0.6;}
+input:valid {color:green;}
+input:invalid {color: red;}
 button{width:60vw; height:8vw; color:white;
       border-radius:1vw; margin:10px 20vw 0 20vw;
       background-color:rgb(50,80,80); font-size:4vw;}
