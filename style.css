@@ -1,6 +1,7 @@
 input{width:80vw; height:5vw;
      border-radius:10px;
-     margin:10px 10vw 20px 10vh;}
+     margin:10px 10vw 20px 10vh;
+     font-size:3vw;}
 button{width:60vw; height:8vw; color:white;
       border-radius:1vw; margin:10px 20vw 0 20vw;
       background-color:rgb(50,80,80);}
