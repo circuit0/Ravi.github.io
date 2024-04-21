@@ -4,5 +4,5 @@ input{width:80vw; height:5vw;
      font-size:3vw;}
 button{width:60vw; height:8vw; color:white;
       border-radius:1vw; margin:10px 20vw 0 20vw;
-      background-color:rgb(50,80,80);}
+      background-color:rgb(50,80,80); size:6vw;}
 body{backhround-color:rgb(10,10,10);}
