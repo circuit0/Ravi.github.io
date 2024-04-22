@@ -8,4 +8,5 @@ input:invalid {color: red;}
 button{width:60vw; height:8vw; color:white;
       border-radius:1vw; margin:10px 20vw 0 20vw;
       background-color:rgb(50,80,80); font-size:4vw;}
+button:disabled{background-color:rgb(100,130,130);}
 body{backhround-color:rgb(10,10,10); margin:0;}
