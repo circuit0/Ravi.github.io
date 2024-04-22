@@ -9,14 +9,17 @@
   <script>
     var text="mailto:cec@eci.gov.in?subject=Hateful speech by PM during election rally&body=Dear CEC,%0D%0A%0D%0AOn%2021/04/2024,%20Our%20Prime%20Minister%20Shri%20Narendra%20Modi%20did%20a%20shameful%20act%20of%20communalising%20his%20audience%20during%20his%20rally%20in%20rajasthan%20using%20islamophobic,%20divisive,%20and%20hateful%20speech.%20As%20a%20citizen%20of%20India,%20I%20condemn%20this%20act.";
     text+= "%0D%0A%0D%0AOur%20leaders%20should%20not%20be%20allowed%20to%20promote%20hate%20against%20any%20community,%20whether%20when%20MCC%20is%20there%20or%20not.%0D%0APlease%20take%20necessary%20action%20against%20this%20act.%0D%0A%0D%0AFor%20reference,%20link%20of%20the%20speech%20on%20SM%20is%20below:%0D%0A🔗%0D%0A" + "https://twitter.com/Nher_who/status/1782039263082914051";
-document.querySelector("button").disabled=true;
+
+    document.querySelector("button").disabled=true;
     function input(e){
       e.value=e.value.toUpperCase();
       if(e.value.length!==10){document.querySelector("button").disabled=true;}
       else{document.querySelector("button").disabled=false;}
     }
-    function generate(){
-   text+="%0D%0AEPIC%20No.%20" + document.getElementById("epic").value + "%0D%0AWaiting%20for%20your%20response."
+    if(document.querySelector("button").disabled=true){document.querySelector("button").addEventListener(onclick,alert("Please Fill your EPIC NO."))}
+    
+function generate(){
+  text+="%0D%0AEPIC%20No.%20" + document.getElementById("epic").value + "%0D%0AWaiting%20for%20your%20response."
 
   var link = document.createElement('a');
   link.href = text;
